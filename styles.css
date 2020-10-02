@@ -1,11 +1,25 @@
-/*Some colors based on: https://www.w3schools.com/colors/colors_palettes.asp */
+/*Some colors based on:
+https://www.w3schools.com/colors/colors_palettes.asp
+
+Color converter:
+https://www.w3schools.com/colors/colors_converter.asp
+
+Color names:
+https://www.w3schools.com/colors/colors_names.asp
+
+Color opacity based on:
+https://www.w3schools.com/css/css3_colors.asp
+*/
 
 /* --------
 START Nav Styles for MOBILE
 -------- */
+
+
+
 /* These styles are for background color to the top navigation */
 .topnav {
- background-color: grey;
+ background-color: #d6cbd3,0.5;
  opacity: 0.7;
  overflow: hidden;
 }
@@ -89,7 +103,7 @@ HERO STYLES
   position: absolute;
   bottom: 10%;
   left: 10%;
-  color: white;
+  color: black;
 }
 
 .hero button{
@@ -107,7 +121,10 @@ END HERO STYLES
 h2{
     font-size: 1.2em;
 }
-
+h3{
+    margin: 20px auto;
+    width: 90%;
+}
 p{
 
 }
@@ -115,8 +132,8 @@ p{
 #wrapper{
     margin: 15px auto;
     width:90%;
-    background-color: purple;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
 }
 
 .center{
@@ -156,7 +173,10 @@ Media Queries
         clear:both;
         content:"";
     }
-}    /* ---- END Laptop or tablet styles below ---- */
+}
+/* ----
+END Laptop or tablet styles below
+ ---- */
 
 @media only screen and (min-width:1100px){
     /* ---- Very large Desktop styles below ---- */
